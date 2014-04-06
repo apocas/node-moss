@@ -1,0 +1,26 @@
+{
+  "name": "node-moss",
+  "description": "MOSS",
+  "version": "0.1.0",
+  "author": "Pedro Dias <petermdias@gmail.com>",
+  "maintainers": [
+    "apocas <petermdias@gmail.com>"
+  ],
+  "dependencies": {
+    "express": "*",
+    "colors": "*",
+    "cheerio": "*",
+    "request": "*"
+  },
+  "main": "./main.js",
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "devDependencies": {
+    "chai": "~1.7.0",
+    "mocha": "~1.12.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec"
+  }
+}
