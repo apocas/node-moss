@@ -6,7 +6,7 @@
 exports.searchCategorySubject = function (req, res) {
   console.log(req.params.category);
   console.log(req.params.subject);
-  
+
   //code ...
 
   res.status(500).json({'status': 'nok', 'message': 'to be implemented...'});
@@ -14,7 +14,8 @@ exports.searchCategorySubject = function (req, res) {
 
 exports.searchCategoryPrice = function (req, res) {
   console.log(req.params.category);
-  console.log(req.params.subject);
+  console.log(req.params.price);
+  console.log(req.params.condition); //smaller, bigger
 
   //code ...
 

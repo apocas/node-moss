@@ -10,7 +10,7 @@ app.configure(function() {
 });
 
 app.get('/search/:category/:subject', api.searchCategorySubject);
-app.get('/search/:category/:price', api.searchCategoryPrice);
+app.get('/search/:category/price/:condition/:price', api.searchCategoryPrice);
 app.post('/search', api.searchParams);
 
 app.listen(3333);
