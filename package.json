@@ -10,7 +10,8 @@
     "express": "*",
     "colors": "*",
     "cheerio": "*",
-    "request": "*"
+    "request": "*",
+    "body-parser": "*"
   },
   "main": "./main.js",
   "engines": {
