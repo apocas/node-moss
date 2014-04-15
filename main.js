@@ -4,7 +4,6 @@ var express = require('express'),
 
 var app = express();
 
-app.use(express.errorHandler({dumpException: true, showStack: true}));
 app.use(bodyParser());
 
 app.get('/search/:category/:subject', api.searchCategorySubject);
